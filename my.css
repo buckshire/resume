@@ -1,6 +1,23 @@
 
 /* Navbar
 ------------------------------------------ */
+.nav-icon {
+  position: relative;
+  float: left;
+  margin: 20px;
+  display: inline-block;
+  line-height: 100%;
+  font-size: 32px;
+  color: #222; }
+
+  .link-icon {
+    position: relative;
+    float: left;
+    margin: 20px;
+    display: inline-block;
+    line-height: 100%;
+    font-size: 62px;
+    color: #222; }
 
 .navbar {
   display: none;
@@ -34,7 +51,7 @@
     float: left;
     margin: 20px;
     display: inline-block;
-    line-height: none;
+    line-height: 100%;
     font-size: 32px;
     color: #222; }
 
