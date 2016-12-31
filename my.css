@@ -35,6 +35,7 @@
     margin-right: 30px;
     display: inline-block;
     font-size: 50px;
+    line-height: normal;
     color: #222; }
 
   .navbar-item.active {
