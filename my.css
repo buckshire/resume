@@ -1,34 +1,10 @@
-.icon{
-  font-size: 52
-}
 
 /* Navbar
-
 ------------------------------------------ */
-
-.containernav {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; }
-
-
-
-
 
 .navbar {
   display: none;
-  position: fixed;
-  width: 100%;
-  height: 6.5rem;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-  background-color: #757575;
-
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee; }
+  }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -44,8 +20,7 @@
     background: #fff;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-  background-color: #757575;
-}
+  }
 
   .navbar-list {
     list-style: none;
