@@ -1,4 +1,19 @@
-
+.nav {
+  display: none;
+}
+@media (min-width: 750px) {
+.nav {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 100%
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
 /* Navbar
 ------------------------------------------ */
 .nav-icon {
