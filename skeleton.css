@@ -127,6 +127,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+  line-height: none;
   background-color: #fff;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
