@@ -126,7 +126,7 @@ nav {
   position: fixed;
   width: 100%;
   height: 6.5rem;
-  margin: 0 auto;
+  margin: auto;
   padding: 0 20px;
   box-sizing: border-box;
   background: #757575;
