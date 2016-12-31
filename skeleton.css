@@ -133,8 +133,6 @@ nav {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
-/* Larger than phablet */
-@media (min-width: 550px) {}
 
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
