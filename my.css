@@ -44,14 +44,6 @@
     margin-left: 12;
     margin-right: 12;}
 
-  .nav-icon {
-    position: relative;
-    float: left;
-    margin: 20px;
-    display: inline-block;
-    line-height: 100%;
-    font-size: 32px;
-    color: #222; }
 
   .navbar-item.active {
     position: relative;
