@@ -128,13 +128,14 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  padding: 0 20px;
-  float: left;
-  background: #fff;
+  padding: 25px;
+  background-color: #fff;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
-  font-size: 32;
 }
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
