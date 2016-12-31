@@ -32,9 +32,9 @@
   .nav-icon {
     position: relative;
     float: left;
-    margin-right: 30px;
+    margin: 30px;
     display: inline-block;
-    font-size: 50px;
+    font-size: 23px;
     color: #222; }
 
   .navbar-item.active {
