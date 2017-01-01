@@ -12,14 +12,14 @@
 }
 
 
-.nav-icon.active {
+.nav-iconactive {
   float: left;
   margin: 20px;
   display: inline-block;
   line-height: 100%;
   font-size: 32px;
   color: #1EAEDB;
-  hover: #0FA0CE; 
+  hover: #0FA0CE;
 }
 
 .link-icon {
