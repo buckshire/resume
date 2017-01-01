@@ -20,54 +20,24 @@
       text-align: left;
     }
 
-background: linear-gradient(48deg, #b3cfff, #91abe5, #6f8acb, #4b69b2, #1f4b99);
-
-    background-size: 1000% 1000%;
-
-    -webkit-animation: AnimationName 33s ease infinite;
-
-    -moz-animation: AnimationName 33s ease infinite;
-
-    -o-animation: AnimationName 33s ease infinite;
-
-    animation: AnimationName 33s ease infinite;
-
-    @-webkit-keyframes AnimationName {
-
-        0%{background-position:97% 0%}
-
-        50%{background-position:4% 100%}
-
-        100%{background-position:97% 0%}
-
+    .animate {
+        height: 200px;
+        width: 400px;
+        border: 1px solid #000;
+        -webkit-animation: animate_bg 5s;
+        animation: animate_bg 5s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
     }
 
-    @-moz-keyframes AnimationName {
-
-        0%{background-position:97% 0%}
-
-        50%{background-position:4% 100%}
-
-        100%{background-position:97% 0%}
-
+    @keyframes animate_bg {
+        0%   {background:red;}
+        50%  {background:green;}
+        100% {background:blue;}
     }
 
-    @-o-keyframes AnimationName {
-
-        0%{background-position:97% 0%}
-
-        50%{background-position:4% 100%}
-
-        100%{background-position:97% 0%}
-
-    }
-
-    @keyframes AnimationName {
-
-        0%{background-position:97% 0%}
-
-        50%{background-position:4% 100%}
-
-        100%{background-position:97% 0%}
-
+    @-webkit-keyframes animate_bg {
+        0%   {background:red;}
+        50%  {background:green;}
+        100% {background:blue;}
     }
