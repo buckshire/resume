@@ -7,7 +7,20 @@
   display: inline-block;
   line-height: 100%;
   font-size: 32px;
-  color: #222; }
+  color: #222;
+  hover: #0FA0CE;
+}
+
+
+.nav-icon.active {
+  float: left;
+  margin: 20px;
+  display: inline-block;
+  line-height: 100%;
+  font-size: 32px;
+  color: #1EAEDB;
+  hover: #0FA0CE; 
+}
 
 .link-icon {
   position: relative;
@@ -17,21 +30,19 @@
 
 .section {
       padding: 8rem 0 7rem;
-      
     }
 
-    .test {
+.test {
   width: 100%;
-  	height: 100%;
-      margin: 0;
-      padding: 0;
-  	background: linear-gradient(270deg, #18f0b8, #18a2f0, #db5640);
-  	background-size: 600% 600%;
-  	-webkit-animation: Gradient 60s ease infinite;
-  	-moz-animation: Gradient 60s ease infinite;
-  	animation: Gradient 60s ease infinite;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(270deg, #18f0b8, #18a2f0, #db5640);
+  background-size: 600% 600%;
+  -webkit-animation: Gradient 60s ease infinite;
+  -moz-animation: Gradient 60s ease infinite;
+  animation: Gradient 60s ease infinite;
   }
-
 
       @-webkit-keyframes Gradient {
   		0%{background-position:0% 50%}
