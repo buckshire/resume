@@ -20,7 +20,6 @@
       text-align: left;
     }
 
-.changing {
 background-color:(48deg, #b3cfff, #91abe5, #6f8acb, #4b69b2, #1f4b99);
 
     background-size: 1000% 1000%;
@@ -31,7 +30,7 @@ background-color:(48deg, #b3cfff, #91abe5, #6f8acb, #4b69b2, #1f4b99);
 
     -o-animation: AnimationName 33s ease infinite;
 
-    animation: AnimationName 33s ease infinite;}
+    animation: AnimationName 33s ease infinite;
 
     @-webkit-keyframes AnimationName {
 
