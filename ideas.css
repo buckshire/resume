@@ -8,11 +8,11 @@ body {
 }
 
 body {
-	background: linear-gradient(270deg, #18f0b8, #18a2f0, #db5640);
+	background: linear-gradient(52deg, #18f0b8, #18a2f0, #db5640);
 	background-size: 600% 600%;
-	-webkit-animation: Gradient 60s ease infinite;
-	-moz-animation: Gradient 60s ease infinite;
-	animation: Gradient 60s ease infinite;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+	animation: Gradient 10s ease infinite;
 }
 	
     
