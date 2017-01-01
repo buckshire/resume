@@ -20,7 +20,7 @@
       text-align: left;
     }
 
-.changing {{
+.changing {
 background-color:(48deg, #b3cfff, #91abe5, #6f8acb, #4b69b2, #1f4b99);
 
     background-size: 1000% 1000%;
@@ -71,4 +71,4 @@ background-color:(48deg, #b3cfff, #91abe5, #6f8acb, #4b69b2, #1f4b99);
 
         100%{background-position:97% 0%}
 
-    }}
+    }
