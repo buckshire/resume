@@ -17,6 +17,58 @@
 
 .section {
       padding: 8rem 0 7rem;
-      text-align: center;
-      background-image: url(test.jpg);
+      text-align: left;
     }
+
+.changing {
+backgrounlinear-gradient(48deg, #b3cfff, #91abe5, #6f8acb, #4b69b2, #1f4b99);
+
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 33s ease infinite;
+
+    -moz-animation: AnimationName 33s ease infinite;
+
+    -o-animation: AnimationName 33s ease infinite;
+
+    animation: AnimationName 33s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+
+        0%{background-position:97% 0%}
+
+        50%{background-position:4% 100%}
+
+        100%{background-position:97% 0%}
+
+    }
+
+    @-moz-keyframes AnimationName {
+
+        0%{background-position:97% 0%}
+
+        50%{background-position:4% 100%}
+
+        100%{background-position:97% 0%}
+
+    }
+
+    @-o-keyframes AnimationName {
+
+        0%{background-position:97% 0%}
+
+        50%{background-position:4% 100%}
+
+        100%{background-position:97% 0%}
+
+    }
+
+    @keyframes AnimationName {
+
+        0%{background-position:97% 0%}
+
+        50%{background-position:4% 100%}
+
+        100%{background-position:97% 0%}
+
+    }}
