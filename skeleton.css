@@ -174,7 +174,8 @@ a {
   color: #1EAEDB;
   text-decoration: none;}
 a:hover {
-  color: #0FA0CE; }
+  color: #0FA0CE;
+  -webkit-transform: scale(1.2); }
 
 
 /* Buttons
