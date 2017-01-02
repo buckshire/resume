@@ -14,25 +14,17 @@
    top: 0;
    left: 0;
 }
-.view img {
-   display: block;
-   position: relative;
-}
+
+
 .view h2 {
    text-transform: uppercase;
    color: #fff;
    text-align: center;
    position: relative;
-   font-size: 17px;
-   padding: 10px;
-   background: rgba(0, 0, 0, 0.8);
-   margin: 20px 0 0 0;
 }
 .view p {
-   font-size: 12px;
    position: relative;
    color: #fff;
-   padding: 10px 20px 20px;
    text-align: center;
 }
 .view a.info {
@@ -65,7 +57,6 @@
    transition: all 0.7s ease-in-out;
 }
 .view-tenth .mask {
-   background-color: rgba(255, 231, 179, 0.3);
    -webkit-transition: all 0.5s linear;
    -moz-transition: all 0.5s linear;
    -o-transition: all 0.5s linear;
@@ -76,16 +67,13 @@
    opacity: 0;
 }
 .view-tenth h2 {
-   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
    background: transparent;
-   margin: 20px 40px 0px 40px;
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
    -o-transform: scale(0);
    -ms-transform: scale(0);
    transform: scale(0);
-   color: #333;
-   -webkit-transition: all 0.5s linear;
+      -webkit-transition: all 0.5s linear;
    -moz-transition: all 0.5s linear;
    -o-transition: all 0.5s linear;
    -ms-transition: all 0.5s linear;
@@ -95,8 +83,7 @@
    opacity: 0;
 }
 .view-tenth p {
-   color: #333;
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
    -webkit-transform: scale(0);
