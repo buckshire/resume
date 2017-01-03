@@ -24,8 +24,11 @@
 .link-icon {
   position: relative;
   line-height: 100%;
-  font-size: 42px;
-  hover: -webkit-transform: scale(1.2);
+  font-size: 52px;
+ }
+
+ .link-icon a:hover {
+   -webkit-transform: scale(1.2);
  }
 
 .section {
