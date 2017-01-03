@@ -8,7 +8,6 @@
   line-height: 100%;
   font-size: 32px;
   color: #222;
-  hover: #0FA0CE;
 }
 
 
@@ -20,17 +19,14 @@
   font-size: 32px;
   font-weight: 600;
   color: #1EAEDB;
-  hover: #0FA0CE;
 }
 
 .link-icon {
   position: relative;
   line-height: 100%;
   font-size: 42px;
+  hover: -webkit-transform: scale(1.2);
  }
-
-.link-icon:hover {
-  -webkit-transform: scale(1.2); }
 
 .section {
       padding: 8rem 0 7rem;}
