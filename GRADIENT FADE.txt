@@ -1,0 +1,106 @@
+///	HTML	///
+
+<header>
+	<h1 class="page-title">CSS Grid Layout Demo 5</h1>
+	<p class="intro">Playing with grid-gap.</p>
+</header>
+
+<aside class="demo">
+	<section class="grid-1">
+		<div>1 
+			<p>px</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</section>
+
+	<section class="grid-2">
+		<div>1
+			<p>rem</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</section>
+	
+	<section class="grid-3">
+		<div>1 
+			<p>%</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</section>
+	
+	<section class="grid-4">
+		<div>1 
+			<p>fr</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</section>
+</aside>
+
+<footer>
+[[[http://codepen.io/stacy/pen/f1639a51a21481925379ac4580c6fe2e]]]
+</footer>
+
+
+///	CSS	///
+
+<header>
+	<h1 class="page-title">CSS Grid Layout Demo 5</h1>
+	<p class="intro">Playing with grid-gap.</p>
+</header>
+
+<aside class="demo">
+	<section class="grid-1">
+		<div>1 
+			<p>px</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</section>
+
+	<section class="grid-2">
+		<div>1
+			<p>rem</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</section>
+	
+	<section class="grid-3">
+		<div>1 
+			<p>%</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</section>
+	
+	<section class="grid-4">
+		<div>1 
+			<p>fr</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</section>
+</aside>
+
+<footer>
+[[[http://codepen.io/stacy/pen/f1639a51a21481925379ac4580c6fe2e]]]
+</footer>
