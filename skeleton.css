@@ -173,9 +173,7 @@ p {
 a {
   text-decoration: none;}
 a:hover {
-  color: #0FA0CE;
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);}
+  }
 
 
 /* Buttons
