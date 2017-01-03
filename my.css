@@ -2,7 +2,7 @@
 /* Navbar
 ------------------------------------------ */
 .nav-icon {
-  float: left;
+  float: right;
   margin: 20px;
   display: inline-block;
   line-height: 100%;
@@ -10,6 +10,10 @@
   color: #222;
 }
 
+a.nav-icon:hover{
+  color: #ff0000;
+  -webkit-transform: scale(1.2);
+}
 
 .nav-iconactive {
   float: left;
@@ -18,16 +22,17 @@
   line-height: 100%;
   font-size: 32px;
   font-weight: 600;
-  color: #1EAEDB;
+  color: #ff0000;
 }
 
+
+
 .link-icon {
-  position: relative;
   line-height: 100%;
   font-size: 52px;
  }
 
- .link-icon a:hover {
+ a.link-icon:hover {
    -webkit-transform: scale(1.2);
  }
 
